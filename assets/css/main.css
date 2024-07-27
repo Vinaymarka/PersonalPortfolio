@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
-/*
-	Story by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -97,6 +93,12 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+	.skills-heading{
+		align-content:center;
+		justify-content:center;
+		display: flex; 
+		
+	}
 
 	body {
 		background: #ffffff;
@@ -114,7 +116,33 @@ input, select, textarea {
 		}
 
 /* Type */
+	
+	.skills-container {
+		display: flex;
+		flex-direction: row; 
+		align-items: flex-start;
+	}
 
+	.skills-content {
+		display: flex;
+		margin-left: 20px; /* Adjust as needed */
+	}
+
+	.vertical-line {
+		height: 78px;; 
+		width: 2px;
+		background-color: #000; /* Adjust color as needed */
+		margin-right: 20px; /* Adjust as needed */
+	}
+
+	.technical-skills-list {
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	.technical-skills-list li {
+		margin-bottom: 10px; /* Adjust as needed */
+	}
 	html {
 		font-size: 18pt;
 	}
@@ -2749,6 +2777,9 @@ input, select, textarea {
 
 	ul.alt li {
 		border-top-color: rgba(0, 0, 0, 0.2);
+	}
+	.container{ 
+
 	}
 
 /* Actions */
